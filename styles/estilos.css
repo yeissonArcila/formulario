@@ -1,0 +1,32 @@
+.titulo{
+    color: blue;
+    text-align: center;
+}
+.contenedor-form{
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    max-width: 100vw;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 16px;
+    font-weight: 700;
+}
+input,select{
+    min-width: 100%;
+    padding: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.fila{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.boton{
+    background-color: #04aa6d;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
